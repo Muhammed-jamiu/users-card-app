@@ -15,6 +15,10 @@ body {
 .icon {
   @apply text-[20px] hover:border-[1px];
 }
+
+.btns {
+  @apply text-white border-[2px] w-[90px] rounded-md bg-green-600 font-bold border-green-600;
+}
 /* 
 .logo {
   height: 6em;

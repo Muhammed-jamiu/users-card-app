@@ -21,7 +21,7 @@ const Card = (props) => {
             src={`/public/${props.image}`}
             alt="picture"
           />
-          <div>
+          <div className="text-md">
             <p className="font-bold">
               Name: <span>{props.name}</span>{" "}
             </p>
